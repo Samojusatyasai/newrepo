@@ -19,3 +19,11 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
+WebUI.navigateToUrl('https://www.google.com/')
+
+WebUI.maximizeWindow()
+
+WebUI.delay(3)
+
+WebUI.closeBrowser()
+
